@@ -21,3 +21,8 @@ app.get('/', function (req, res) {
 })
  
 app.listen(1337)
+
+
+module.exports = function(width, height) {
+  return width * height;
+};
